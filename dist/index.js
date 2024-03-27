@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.parseDataUri = exports.isImage = exports.GIF = void 0;
+const tslib_1 = require("tslib");
+var GIF_1 = require("./structures/GIF");
+Object.defineProperty(exports, "GIF", { enumerable: true, get: function () { return GIF_1.GIF; } });
+var Util_1 = require("./utils/Util");
+Object.defineProperty(exports, "isImage", { enumerable: true, get: function () { return Util_1.isImage; } });
+Object.defineProperty(exports, "parseDataUri", { enumerable: true, get: function () { return Util_1.parseDataUri; } });
+tslib_1.__exportStar(require("./types"), exports);
