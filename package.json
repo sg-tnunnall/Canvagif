@@ -31,7 +31,7 @@
     "typescript": "^4.8.3"
   },
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.6.8",
     "ndarray": "^1.0.19",
     "ndarray-ops": "^1.2.2",
     "omggif": "^1.0.10",
